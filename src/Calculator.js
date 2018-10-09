@@ -160,14 +160,14 @@ class Calculator extends Component {
         <div>
             <Grid container spacing={0}>
                 <Grid item xs={12}>
-                    <section style={{ height: 400, maxHeight: 400, backgroundImage: `url(${hawaii})`, textAlign: "center" }}>
-                        <img src={Logo} style={{ maxHeight: 120, paddingTop: 50 }} alt="Moorhead logo" />
+                    <section style={{ padding: "0 20px",height: 400, maxHeight: 400, backgroundImage: `url(${hawaii})`, textAlign: "center" }}>
+                        <img src={Logo} style={{ maxHeight: 120, paddingTop: 50, maxWidth: "100%" }} alt="Moorhead logo" />
                     </section>
                 </Grid>
             </Grid>
             <Grid className="main-calc-body" justify="center" container spacing={0} style={{ position: "relative", top: "-100px" }}>
-                <Grid style={{ maxWidth: 900 }} item xs={12}>
-                    <Paper style={{ padding: "20px 50px" }}>
+                <Grid style={{ maxWidth: 900, padding: "0 10px" }} item xs={12}>
+                    <Paper style={{ padding: "20px 25px" }}>
                         <Typography variant="h4" gutterBottom align="center">
                             Moorhead and Co Pricing Calculator
                         </Typography>
